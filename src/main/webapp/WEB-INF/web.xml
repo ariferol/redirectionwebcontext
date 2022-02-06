@@ -21,4 +21,15 @@
     <welcome-file-list>
         <welcome-file>faces/index.xhtml</welcome-file>
     </welcome-file-list>
+    
+    <!--Annotation olmadan da burada WebFilter tanimi yapabiliyoruz-->
+<!--    <filter>
+        <filter-name>SampleFilter</filter-name>
+        <filter-class>mycompany.redirectionwebcontext.filter.SampleFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>SampleFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>-->
 </web-app>
